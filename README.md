@@ -46,6 +46,41 @@ class Rocklyn(AIEngineer, CloudEngineer, FullStackDeveloper):
         ]
 ```
 
+## ⭐ Featured project
+
+<table>
+<tr>
+<td width="55%" valign="top">
+<a href="https://github.com/codeROCK-IZZY/multimodal-ai-assistant"><img src="https://raw.githubusercontent.com/codeROCK-IZZY/multimodal-ai-assistant/main/docs/images/chat.png" alt="Multimodal AI Assistant: answers with citations" width="100%"/></a>
+</td>
+<td width="45%" valign="top">
+
+### [Multimodal AI Assistant](https://github.com/codeROCK-IZZY/multimodal-ai-assistant)
+
+Ask about a **receipt photo, a scanned PDF or a voice memo** by typing or speaking. Every answer quotes
+its source with the **page, line or timestamp**. When the files don't contain the answer, it says so.
+
+- 🎙️ Whisper speech-to-text and Piper voice replies, **all on CPU**
+- 🔎 Two-stage retrieval: embeddings, then a **cross-encoder** that decides answerability
+- 🛡️ Tools behind a permission gate that **prompt injection can't bypass**
+- 🧪 Evaluation suite enforced in CI: OCR, speech, Q&A, tools, injection
+
+[**See the code →**](https://github.com/codeROCK-IZZY/multimodal-ai-assistant)
+
+</td>
+</tr>
+</table>
+
+<p align="center">
+<a href="https://github.com/codeROCK-IZZY/multimodal-ai-assistant"><img src="https://raw.githubusercontent.com/codeROCK-IZZY/multimodal-ai-assistant/main/docs/images/voice.png" alt="Voice memo answered with a timestamp citation" width="32%"/></a>
+<a href="https://github.com/codeROCK-IZZY/autonomous-business-platform"><img src="https://raw.githubusercontent.com/codeROCK-IZZY/autonomous-business-platform/main/docs/images/run.png" alt="AI agent run paused for human approval" width="32%"/></a>
+<a href="https://github.com/codeROCK-IZZY/ai-predictive-maintenance"><img src="https://raw.githubusercontent.com/codeROCK-IZZY/ai-predictive-maintenance/main/docs/screenshots/dashboard.png" alt="Predictive maintenance fleet dashboard" width="32%"/></a>
+</p>
+
+## 🏗️ How I build systems
+
+<img src="assets/architecture.svg" alt="Data in → processing → retrieval and models → guardrails → API → product, with CI and AWS infrastructure-as-code underneath" width="100%"/>
+
 ## 🚀 Projects
 
 <table>
@@ -55,6 +90,8 @@ class Rocklyn(AIEngineer, CloudEngineer, FullStackDeveloper):
 ### 🗣️ [Multimodal AI Assistant](https://github.com/codeROCK-IZZY/multimodal-ai-assistant)
 Talk or type, attach photos, PDFs and voice notes. Answers cite the **page, line or timestamp**, decline when the files don't say, and run tools under permissions that **prompt injection can't bypass**.
 
+📊 **92%** grounded-answer accuracy · **4%** speech WER · **0** prompt-injection data changes
+
 `faster-whisper` `Piper TTS` `RapidOCR` `cross-encoder` `FastAPI` `React`
 
 </td>
@@ -62,6 +99,8 @@ Talk or type, attach photos, PDFs and voice notes. Answers cite the **page, line
 
 ### ☁️ [Enterprise AWS Cloud Platform](https://github.com/codeROCK-IZZY/enterprise-aws-cloud-platform)
 A Terraform **landing zone**: Organizations with guardrail SCPs, tamper-resistant org-wide logging, GuardDuty and Security Hub, and a Transit Gateway network with prod/non-prod isolation. **Tested without an AWS account**.
+
+📊 **32** Terraform tests on a mocked provider · **0** Checkov failures · AWS quotas checked before plan
 
 `Terraform` `AWS Organizations` `Transit Gateway` `IPAM` `Checkov`
 
@@ -73,6 +112,8 @@ A Terraform **landing zone**: Organizations with guardrail SCPs, tamper-resistan
 ### 🤖 [Autonomous Business Operations](https://github.com/codeROCK-IZZY/autonomous-business-platform)
 AI agents that handle refunds, supplier invoices and purchase requests, with **human approval** for risky actions, idempotent tools, retries and a **hash-chained audit trail**.
 
+📊 **96.9%** correct outcomes on 129 labelled cases · **100%** approval precision and recall
+
 `LangGraph` `Claude API` `PostgreSQL` `FastAPI` `React`
 
 </td>
@@ -80,6 +121,8 @@ AI agents that handle refunds, supplier invoices and purchase requests, with **h
 
 ### 💳 [Fraud Detection Engine](https://github.com/codeROCK-IZZY/fraud-detection-engine)
 Real-time fraud scoring on a **Kafka** transaction stream, with explainable model decisions and an analyst case workflow.
+
+📊 Catches **93%** of fraud dollars at ~31 alerts/day · **96%** precision in the critical band
 
 `Kafka` `XGBoost` `SHAP` `FastAPI` `React`
 
@@ -91,6 +134,8 @@ Real-time fraud scoring on a **Kafka** transaction stream, with explainable mode
 ### 📄 [Intelligent Document AI](https://github.com/codeROCK-IZZY/intelligent-document-ai)
 Turns PDFs, Word files and scans into searchable, structured data, with **grounded Q&A** that refuses to answer without a citation.
 
+📊 Retrieval recall@5 **1.0** · field extraction **100%** · OCR error rate **1.6%**
+
 `OCR` `pgvector` `embeddings` `Claude citations` `FastAPI`
 
 </td>
@@ -98,6 +143,8 @@ Turns PDFs, Word files and scans into searchable, structured data, with **ground
 
 ### 🏭 [AI Predictive Maintenance](https://github.com/codeROCK-IZZY/ai-predictive-maintenance)
 Predicts industrial equipment failures days ahead from sensor data, explains each prediction, and tracks the fleet on a dashboard.
+
+📊 Flagged **34 of 35** held-out failures, **6.6 days** ahead on average · precision **0.83**
 
 `scikit-learn` `XGBoost` `SHAP` `FastAPI` `React`
 
@@ -109,6 +156,8 @@ Predicts industrial equipment failures days ahead from sensor data, explains eac
 ### 🔎 [AI Research & Knowledge Engine](https://github.com/codeROCK-IZZY/ai-research-engine)
 Team knowledge bases built from files and the web, with hybrid search, re-ranking and cited answers.
 
+📊 Citation precision **99.3%** · **100%** correct "not found" · MRR **1.0** with re-ranking
+
 `pgvector` `ONNX re-ranker` `hybrid search` `FastAPI`
 
 </td>
@@ -116,6 +165,8 @@ Team knowledge bases built from files and the web, with hybrid search, re-rankin
 
 ### 🧠 [AI Developer Intelligence](https://github.com/codeROCK-IZZY/ai-developer-intelligence)
 Understands any codebase: parses five languages, maps dependencies, flags risks and answers questions about the code.
+
+📊 **100%** precision and recall on 21 planted findings · semantic search recall@5 **95%**
 
 `tree-sitter` `PageRank` `MinHash` `pgvector` `FastAPI`
 
@@ -192,8 +243,12 @@ every_repo:
 
 ### 🤝 Let's build something
 
-**Hiring for AI, ML, cloud or full-stack work?** Start with the [projects](#-projects); each README opens
-with the problem, the design and the measured results. Then reach out through GitHub.
+**Hiring for AI, ML, cloud or full-stack work?** Start with the [featured project](#-featured-project);
+every README opens with the problem, the design and the measured results.
+
+<a href="https://israelrocklyn.info"><img src="https://img.shields.io/badge/Website-israelrocklyn.info-0d1117?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website: israelrocklyn.info"/></a>
+<img src="https://img.shields.io/badge/Available_for_hire-yes-2ea043?style=for-the-badge&logo=handshake&logoColor=white" alt="Available for hire"/>
+<img src="https://img.shields.io/badge/Location-United_States-1f6feb?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location: United States"/>
 
 <sub>Built in public, one production-grade project at a time.</sub>
 

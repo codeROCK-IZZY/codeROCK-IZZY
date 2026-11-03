@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="250" viewBox="0 0 760 250" role="img" aria-label="How I build AI systems: data in, processing, retrieval and models, guardrails, API, product; with tests, evaluations and security scans in CI and Terraform on AWS">
+  <title>How I build AI systems</title>
+  <style>
+    .t { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+    .h { font-size: 13px; font-weight: 700; fill: #e6edf3; }
+    .s { font-size: 10.5px; fill: #8b949e; }
+    .m { font-family: 'JetBrains Mono', Consolas, 'Courier New', monospace; font-size: 11px; }
+    .flow { stroke-dasharray: 6 6; animation: dash 1.2s linear infinite; }
+    @keyframes dash { to { stroke-dashoffset: -12; } }
+    .pulse { animation: pulse 2.4s ease-in-out infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 0.55; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .flow, .pulse { animation: none; } }
+  </style>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#8b949e"/>
+    </marker>
+  </defs>
+
+  <rect x="1" y="1" width="758" height="248" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  <text x="24" y="30" class="m" fill="#8b949e">// how my AI systems are built: the backbone behind my projects</text>
+
+  <!-- stage boxes -->
+  <g class="t">
+    <rect x="22" y="52" width="104" height="70" rx="9" fill="#161b22" stroke="#7ee787"/>
+    <text x="74" y="80" text-anchor="middle" class="h">Data in</text>
+    <text x="74" y="97" text-anchor="middle" class="s">files · voice · events</text>
+    <text x="74" y="111" text-anchor="middle" class="s">sensors · repos</text>
+
+    <rect x="146" y="52" width="104" height="70" rx="9" fill="#161b22" stroke="#a5d6ff"/>
+    <text x="198" y="80" text-anchor="middle" class="h">Processing</text>
+    <text x="198" y="97" text-anchor="middle" class="s">OCR · Whisper · Kafka</text>
+    <text x="198" y="111" text-anchor="middle" class="s">parsing · features</text>
+
+    <rect x="270" y="52" width="104" height="70" rx="9" fill="#161b22" stroke="#d2a8ff"/>
+    <text x="322" y="80" text-anchor="middle" class="h">Intelligence</text>
+    <text x="322" y="97" text-anchor="middle" class="s">RAG · rerank · ML</text>
+    <text x="322" y="111" text-anchor="middle" class="s">LLM agents</text>
+
+    <rect x="394" y="52" width="104" height="70" rx="9" fill="#161b22" stroke="#ffa657"/>
+    <text x="446" y="80" text-anchor="middle" class="h">Guardrails</text>
+    <text x="446" y="97" text-anchor="middle" class="s">citations · approvals</text>
+    <text x="446" y="111" text-anchor="middle" class="s">permissions · audit</text>
+
+    <rect x="518" y="52" width="104" height="70" rx="9" fill="#161b22" stroke="#79c0ff"/>
+    <text x="570" y="80" text-anchor="middle" class="h">API</text>
+    <text x="570" y="97" text-anchor="middle" class="s">FastAPI · auth</text>
+    <text x="570" y="111" text-anchor="middle" class="s">PostgreSQL</text>
+
+    <rect x="642" y="52" width="96" height="70" rx="9" fill="#161b22" stroke="#7ee787"/>
+    <text x="690" y="80" text-anchor="middle" class="h">Product</text>
+    <text x="690" y="97" text-anchor="middle" class="s">React + TS</text>
+    <text x="690" y="111" text-anchor="middle" class="s">dashboards</text>
+  </g>
+
+  <!-- animated flow -->
+  <g stroke="#8b949e" stroke-width="1.6" fill="none" marker-end="url(#arrow)">
+    <line class="flow" x1="127" y1="87" x2="144" y2="87"/>
+    <line class="flow" x1="251" y1="87" x2="268" y2="87"/>
+    <line class="flow" x1="375" y1="87" x2="392" y2="87"/>
+    <line class="flow" x1="499" y1="87" x2="516" y2="87"/>
+    <line class="flow" x1="623" y1="87" x2="640" y2="87"/>
+  </g>
+
+  <!-- foundation layers -->
+  <g class="t">
+    <rect x="22" y="142" width="716" height="38" rx="9" fill="#161b22" stroke="#30363d"/>
+    <circle class="pulse" cx="42" cy="161" r="5" fill="#2ea043"/>
+    <text x="56" y="165" class="h" style="font-size:12px">CI on every push</text>
+    <text x="190" y="165" class="m" fill="#a5d6ff">lint · types · tests · evaluation gates · secret scan · IaC security scan</text>
+
+    <rect x="22" y="190" width="716" height="38" rx="9" fill="#161b22" stroke="#30363d"/>
+    <circle class="pulse" cx="42" cy="209" r="5" fill="#f0883e"/>
+    <text x="56" y="213" class="h" style="font-size:12px">Designed for AWS</text>
+    <text x="190" y="213" class="m" fill="#ffa657">Terraform · ECS Fargate · RDS · EFS · least-privilege IAM · OIDC deploys</text>
+  </g>
+</svg>
