@@ -8,6 +8,7 @@
 
 <a href="#-projects"><img src="https://img.shields.io/badge/projects-8_shipped-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="8 projects shipped"/></a>
 <a href="#-how-i-build"><img src="https://img.shields.io/badge/CI-green_on_every_repo-2ea44f?style=for-the-badge&logo=githubactions&logoColor=white" alt="CI green on every repo"/></a>
+<a href="#-education"><img src="https://img.shields.io/badge/M.S._CS-AI_concentration-1f6feb?style=for-the-badge&logo=academia&logoColor=white" alt="M.S. Computer Science, AI concentration"/></a>
 <a href="#-roles-im-open-to"><img src="https://img.shields.io/badge/status-open_to_opportunities-8957e5?style=for-the-badge" alt="Open to opportunities"/></a>
 
 <br/><br/>
@@ -20,6 +21,7 @@
 <a href="#-projects">Projects</a> ·
 <a href="#-roles-im-open-to">Roles</a> ·
 <a href="#-stack">Stack</a> ·
+<a href="#-education">Education</a> ·
 <a href="#-digital-marketing--wordpress-toolkit">Marketing &amp; WordPress</a> ·
 <a href="#-lets-build-something">Contact</a>
 </p>
@@ -31,6 +33,7 @@
 > [!TIP]
 > **Recruiter summary (20 seconds)**
 > - **Who:** AI & Cloud Engineer and Full-Stack Developer, who also builds WordPress sites and runs digital marketing.
+> - **Education:** M.S. Computer Science (concentration in Artificial Intelligence) · B.Sc. Information Systems.
 > - **Proof:** 8 production-grade projects with tests, CI and **measured results**, from RAG and LLM agents to ML models and an AWS landing zone.
 > - **Strengths:** shipping end to end (data → model → API → UI → infrastructure), honest evaluation, and security by default.
 > - **Status:** available for hire, based in the United States. Start with the [featured project](#-featured-project).
@@ -50,6 +53,8 @@ class Rocklyn(AIEngineer, CloudEngineer, FullStackDeveloper):
     roles     = ["AI Engineer", "ML Engineer", "LLM / GenAI Engineer", "MLOps Engineer",
                  "Cloud & Platform Engineer", "Full-Stack Developer"]
     languages = ["Python", "TypeScript", "SQL", "HCL", "PHP"]
+    education = {"M.S. Computer Science": "concentration in Artificial Intelligence",
+                 "B.Sc. Information Systems": "technology in service of the business"}
 
     def builds(self):
         return {
@@ -230,6 +235,31 @@ Understands any codebase: parses five languages, maps dependencies, flags risks 
 | **Search and developer tools** | [Research Engine](https://github.com/codeROCK-IZZY/ai-research-engine) · [Developer Intelligence](https://github.com/codeROCK-IZZY/ai-developer-intelligence) |
 | **Cloud and platform engineering** | [Enterprise AWS Cloud Platform](https://github.com/codeROCK-IZZY/enterprise-aws-cloud-platform) |
 
+## 🎓 Education
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### M.S. Computer Science
+**Concentration: Artificial Intelligence**
+
+Graduate-level focus on artificial intelligence and machine learning: the foundation behind the AI
+systems in the projects above.
+
+</td>
+<td width="50%" valign="top">
+
+### B.Sc. Information Systems
+**Business technology and data**
+
+How technology serves a business: the reason my projects start from a real business problem and end
+with documentation for the people who run them.
+
+</td>
+</tr>
+</table>
+
 ## 🧰 Stack
 
 | | |
@@ -300,6 +330,7 @@ const marketing = {
 **Hiring for AI, ML, cloud or full-stack work?** Start with the [featured project](#-featured-project);
 every README opens with the problem, the design and the measured results.
 
+<a href="#-projects"><img src="https://img.shields.io/badge/Portfolio-coming_soon-8957e5?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio: coming soon"/></a>
 <a href="https://israelrocklyn.info"><img src="https://img.shields.io/badge/Website-israelrocklyn.info-0d1117?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website: israelrocklyn.info"/></a>
 <img src="https://img.shields.io/badge/Available_for_hire-yes-2ea043?style=for-the-badge&logo=handshake&logoColor=white" alt="Available for hire"/>
 <img src="https://img.shields.io/badge/Location-United_States-1f6feb?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location: United States"/>
