@@ -6,14 +6,14 @@
 
 <br/>
 
-<a href="#-projects"><img src="https://img.shields.io/badge/projects-8_shipped-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="8 projects shipped"/></a>
+<a href="#-projects"><img src="https://img.shields.io/badge/projects-9_shipped-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="9 projects shipped"/></a>
 <a href="#-how-i-build"><img src="https://img.shields.io/badge/CI-green_on_every_repo-2ea44f?style=for-the-badge&logo=githubactions&logoColor=white" alt="CI green on every repo"/></a>
 <a href="#-education"><img src="https://img.shields.io/badge/M.S._CS-AI_concentration-1f6feb?style=for-the-badge&logo=academia&logoColor=white" alt="M.S. Computer Science, AI concentration"/></a>
 <a href="#-roles-im-open-to"><img src="https://img.shields.io/badge/status-open_to_opportunities-8957e5?style=for-the-badge" alt="Open to opportunities"/></a>
 
 <br/><br/>
 
-<img src="assets/stats.svg" alt="Highlights: 8 projects shipped, 92% grounded answer accuracy, 0 prompt-injection data changes, 32 infrastructure tests" width="100%"/>
+<img src="assets/stats.svg" alt="Highlights: 9 projects shipped, 92% grounded answer accuracy, 0 prompt-injection data changes, 32 infrastructure tests" width="100%"/>
 
 <p align="center">
 <a href="#-featured-project">Featured</a> ·
@@ -34,15 +34,15 @@
 > **Recruiter summary (20 seconds)**
 > - **Who:** AI & Cloud Engineer and Full-Stack Developer, who also builds WordPress sites and runs digital marketing.
 > - **Education:** M.S. Computer Science (concentration in Artificial Intelligence) · B.Sc. Information Systems.
-> - **Proof:** 8 production-grade projects with tests, CI and **measured results**, from RAG and LLM agents to ML models and an AWS landing zone.
+> - **Proof:** 9 production-grade projects with tests, CI and **measured results**, from RAG and LLM agents to ML models and an AWS landing zone.
 > - **Strengths:** shipping end to end (data → model → API → UI → infrastructure), honest evaluation, and security by default.
 > - **Status:** available for hire, based in the United States. Start with the [featured project](#-featured-project).
 
 ### ⚡ Currently
 
-- 🔭 **Building** [`aws-mlops-platform`](https://github.com/codeROCK-IZZY/aws-mlops-platform): training pipelines, a model registry and monitored deployments on AWS
-- 🌱 **Next up** [`distributed-ai-inference`](https://github.com/codeROCK-IZZY/distributed-ai-inference): serving models at scale on Kubernetes
-- 💬 **Ask me about** RAG that cites its sources, guarding LLM agents with human approval, and testing infrastructure without an AWS account
+- 🔭 **Building** [`distributed-ai-inference`](https://github.com/codeROCK-IZZY/distributed-ai-inference): serving models at scale on Kubernetes
+- ✅ **Just shipped** [`aws-mlops-platform`](https://github.com/codeROCK-IZZY/aws-mlops-platform): promotion gates, drift-triggered retraining and SageMaker canary deploys
+- 💬 **Ask me about** RAG that cites its sources, guarding LLM agents with human approval, telling real model drift from noise, and testing infrastructure without an AWS account
 
 ---
 
@@ -117,6 +117,16 @@ its source with the **page, line or timestamp**. When the files don't contain th
 <tr>
 <td width="50%" valign="top">
 
+### 🔁 [AWS MLOps Platform](https://github.com/codeROCK-IZZY/aws-mlops-platform)
+Keeps a production model healthy **after** it ships: data contracts, MLflow registry, **promotion gates** against the champion, drift and performance monitoring that **retrains by itself**, and SageMaker **canary deploys with auto-rollback**.
+
+📊 Every drift detected **in its first month** · **0/12** false alarms · PR-AUC **0.64 vs 0.58** unmanaged
+
+`MLflow` `SageMaker` `XGBoost` `Terraform` `FastAPI` `React`
+
+</td>
+<td width="50%" valign="top">
+
 ### 🗣️ [Multimodal AI Assistant](https://github.com/codeROCK-IZZY/multimodal-ai-assistant)
 Talk or type, attach photos, PDFs and voice notes. Answers cite the **page, line or timestamp**, decline when the files don't say, and run tools under permissions that **prompt injection can't bypass**.
 
@@ -125,7 +135,9 @@ Talk or type, attach photos, PDFs and voice notes. Answers cite the **page, line
 `faster-whisper` `Piper TTS` `RapidOCR` `cross-encoder` `FastAPI` `React`
 
 </td>
-<td width="50%" valign="top">
+</tr>
+<tr>
+<td valign="top">
 
 ### ☁️ [Enterprise AWS Cloud Platform](https://github.com/codeROCK-IZZY/enterprise-aws-cloud-platform)
 A Terraform **landing zone**: Organizations with guardrail SCPs, tamper-resistant org-wide logging, GuardDuty and Security Hub, and a Transit Gateway network with prod/non-prod isolation. **Tested without an AWS account**.
@@ -135,8 +147,6 @@ A Terraform **landing zone**: Organizations with guardrail SCPs, tamper-resistan
 `Terraform` `AWS Organizations` `Transit Gateway` `IPAM` `Checkov`
 
 </td>
-</tr>
-<tr>
 <td valign="top">
 
 ### 🤖 [Autonomous Business Operations](https://github.com/codeROCK-IZZY/autonomous-business-platform)
@@ -147,6 +157,8 @@ AI agents that handle refunds, supplier invoices and purchase requests, with **h
 `LangGraph` `Claude API` `PostgreSQL` `FastAPI` `React`
 
 </td>
+</tr>
+<tr>
 <td valign="top">
 
 ### 💳 [Fraud Detection Engine](https://github.com/codeROCK-IZZY/fraud-detection-engine)
@@ -157,8 +169,6 @@ Real-time fraud scoring on a **Kafka** transaction stream, with explainable mode
 `Kafka` `XGBoost` `SHAP` `FastAPI` `React`
 
 </td>
-</tr>
-<tr>
 <td valign="top">
 
 ### 📄 [Intelligent Document AI](https://github.com/codeROCK-IZZY/intelligent-document-ai)
@@ -169,6 +179,8 @@ Turns PDFs, Word files and scans into searchable, structured data, with **ground
 `OCR` `pgvector` `embeddings` `Claude citations` `FastAPI`
 
 </td>
+</tr>
+<tr>
 <td valign="top">
 
 ### 🏭 [AI Predictive Maintenance](https://github.com/codeROCK-IZZY/ai-predictive-maintenance)
@@ -179,8 +191,6 @@ Predicts industrial equipment failures days ahead from sensor data, explains eac
 `scikit-learn` `XGBoost` `SHAP` `FastAPI` `React`
 
 </td>
-</tr>
-<tr>
 <td valign="top">
 
 ### 🔎 [AI Research & Knowledge Engine](https://github.com/codeROCK-IZZY/ai-research-engine)
@@ -191,6 +201,8 @@ Team knowledge bases built from files and the web, with hybrid search, re-rankin
 `pgvector` `ONNX re-ranker` `hybrid search` `FastAPI`
 
 </td>
+</tr>
+<tr>
 <td valign="top">
 
 ### 🧠 [AI Developer Intelligence](https://github.com/codeROCK-IZZY/ai-developer-intelligence)
@@ -201,19 +213,17 @@ Understands any codebase: parses five languages, maps dependencies, flags risks 
 `tree-sitter` `PageRank` `MinHash` `pgvector` `FastAPI`
 
 </td>
+<td valign="top">
+
+### 🛠️ [Distributed AI Inference](https://github.com/codeROCK-IZZY/distributed-ai-inference) · *in progress*
+Serving model predictions at scale on Kubernetes, with autoscaling, batching and load tests.
+
+`Kubernetes` `autoscaling` `load testing`
+
+</td>
 </tr>
 </table>
 
-<details>
-<summary><b>🛠️ In progress</b></summary>
-<br/>
-
-| Project | What it will do |
-|---|---|
-| [aws-mlops-platform](https://github.com/codeROCK-IZZY/aws-mlops-platform) | Notebook-to-production ML on AWS: training pipelines, model registry and monitored deployments |
-| [distributed-ai-inference](https://github.com/codeROCK-IZZY/distributed-ai-inference) | Serving model predictions at scale on Kubernetes, with autoscaling and load tests |
-
-</details>
 
 ## 🎯 Roles I'm open to
 
@@ -232,6 +242,7 @@ Understands any codebase: parses five languages, maps dependencies, flags risks 
 |---|---|
 | **AI / LLM engineering:** RAG, agents, evaluation, guardrails | [Multimodal Assistant](https://github.com/codeROCK-IZZY/multimodal-ai-assistant) · [Business Agents](https://github.com/codeROCK-IZZY/autonomous-business-platform) · [Document AI](https://github.com/codeROCK-IZZY/intelligent-document-ai) |
 | **Machine learning:** models that explain themselves | [Predictive Maintenance](https://github.com/codeROCK-IZZY/ai-predictive-maintenance) · [Fraud Detection](https://github.com/codeROCK-IZZY/fraud-detection-engine) |
+| **MLOps:** registry, gated promotion, drift monitoring, retraining | [AWS MLOps Platform](https://github.com/codeROCK-IZZY/aws-mlops-platform) |
 | **Search and developer tools** | [Research Engine](https://github.com/codeROCK-IZZY/ai-research-engine) · [Developer Intelligence](https://github.com/codeROCK-IZZY/ai-developer-intelligence) |
 | **Cloud and platform engineering** | [Enterprise AWS Cloud Platform](https://github.com/codeROCK-IZZY/enterprise-aws-cloud-platform) |
 
