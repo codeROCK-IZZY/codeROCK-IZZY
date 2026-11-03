@@ -280,6 +280,7 @@ const marketing = {
 };
 ```
 
+<!-- Contribution snake (regenerated daily by .github/workflows/snake.yml). Re-enable once the graph fills in:
 ## 🐍 Contribution activity
 
 <picture>
@@ -287,6 +288,8 @@ const marketing = {
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/codeROCK-IZZY/codeROCK-IZZY/output/github-snake.svg"/>
   <img alt="Contribution graph eaten by a snake" src="https://raw.githubusercontent.com/codeROCK-IZZY/codeROCK-IZZY/output/github-snake.svg" width="100%"/>
 </picture>
+
+-->
 
 ---
 
