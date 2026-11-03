@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="64" viewBox="0 0 760 64" role="img" aria-label="Open to: AI Engineer, Machine Learning Engineer, LLM and Generative AI Engineer, MLOps Engineer, Cloud and Platform Engineer, Full-Stack Developer">
+  <title>Open to AI Engineer, ML Engineer, LLM / GenAI Engineer, MLOps Engineer, Cloud &amp; Platform Engineer and Full-Stack Developer roles</title>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace; font-size: 18px; white-space: pre; }
+    .dim { fill: #8b949e; }
+    .kw { fill: #ff7b72; }
+    .role { fill: #d2a8ff; font-weight: 700; opacity: 0; animation: cycle 18s infinite; }
+    .r1 { animation-delay: 0s; }  .r2 { animation-delay: 3s; }  .r3 { animation-delay: 6s; }
+    .r4 { animation-delay: 9s; }  .r5 { animation-delay: 12s; } .r6 { animation-delay: 15s; }
+    @keyframes cycle {
+      0% { opacity: 0; transform: translateY(8px); }
+      3% { opacity: 1; transform: translateY(0); }
+      14% { opacity: 1; transform: translateY(0); }
+      17% { opacity: 0; transform: translateY(-8px); }
+      100% { opacity: 0; }
+    }
+  </style>
+  <rect x="1" y="1" width="758" height="62" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  <text x="24" y="39" class="mono"><tspan class="kw">open_to</tspan><tspan class="dim"> = </tspan></text>
+  <g class="mono">
+    <text x="136" y="39" class="role r1">"AI Engineer"</text>
+    <text x="136" y="39" class="role r2">"Machine Learning Engineer"</text>
+    <text x="136" y="39" class="role r3">"LLM / Generative AI Engineer"</text>
+    <text x="136" y="39" class="role r4">"MLOps Engineer"</text>
+    <text x="136" y="39" class="role r5">"Cloud &amp; Platform Engineer"</text>
+    <text x="136" y="39" class="role r6">"Full-Stack Developer"</text>
+  </g>
+</svg>

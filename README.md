@@ -1,23 +1,30 @@
 <div align="center">
 
-<img src="assets/terminal.svg" alt="Rocklyn — AI &amp; Cloud Software Engineer" width="100%"/>
+<img src="assets/terminal.svg" alt="Rocklyn — AI Engineer · Cloud Engineer · Full-Stack Developer" width="100%"/>
+
+<img src="assets/roles.svg" alt="Open to: AI Engineer, ML Engineer, LLM / GenAI Engineer, MLOps Engineer, Cloud &amp; Platform Engineer, Full-Stack Developer" width="100%"/>
 
 <br/>
 
 <a href="#-projects"><img src="https://img.shields.io/badge/projects-8_shipped-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="8 projects shipped"/></a>
 <a href="#-how-i-build"><img src="https://img.shields.io/badge/CI-green_on_every_repo-2ea44f?style=for-the-badge&logo=githubactions&logoColor=white" alt="CI green on every repo"/></a>
-<a href="#-stack"><img src="https://img.shields.io/badge/focus-AI_%C2%B7_Cloud_%C2%B7_Full--stack-8957e5?style=for-the-badge" alt="Focus: AI, cloud, full-stack"/></a>
+<a href="#-roles-im-open-to"><img src="https://img.shields.io/badge/status-open_to_opportunities-8957e5?style=for-the-badge" alt="Open to opportunities"/></a>
+
+<br/><br/>
+
+<img src="assets/stats.svg" alt="Highlights: 8 projects shipped, 92% grounded answer accuracy, 0 prompt-injection data changes, 32 infrastructure tests" width="100%"/>
 
 </div>
 
 ---
 
 ```python
-class Rocklyn(SoftwareEngineer):
+class Rocklyn(AIEngineer, CloudEngineer, FullStackDeveloper):
     """I build AI products and the cloud platforms they run on: end to end, tested, documented."""
 
-    role      = "AI & Cloud Software Engineer"
-    languages = ["Python", "TypeScript", "SQL", "HCL"]
+    roles     = ["AI Engineer", "ML Engineer", "LLM / GenAI Engineer", "MLOps Engineer",
+                 "Cloud & Platform Engineer", "Full-Stack Developer"]
+    languages = ["Python", "TypeScript", "SQL", "HCL", "PHP"]
 
     def builds(self):
         return {
@@ -26,6 +33,8 @@ class Rocklyn(SoftwareEngineer):
             "backend":   ["FastAPI services", "PostgreSQL (pgvector, job queues)", "Kafka streaming"],
             "frontend":  ["React + TypeScript dashboards"],
             "cloud":     ["AWS landing zones", "ECS / RDS / EFS", "Terraform with tests"],
+            "web":       ["WordPress sites", "SEO-ready, fast-loading pages"],
+            "growth":    ["digital marketing", "content and analytics"],
         }
 
     def principles(self):
@@ -125,24 +134,45 @@ Understands any codebase: parses five languages, maps dependencies, flags risks 
 
 </details>
 
+## 🎯 Roles I'm open to
+
+<p align="center">
+<img src="https://img.shields.io/badge/AI_Engineer-8957e5?style=for-the-badge&logo=openaigym&logoColor=white" alt="AI Engineer"/>
+<img src="https://img.shields.io/badge/Machine_Learning_Engineer-6e40c9?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Machine Learning Engineer"/>
+<img src="https://img.shields.io/badge/LLM_%2F_GenAI_Engineer-a371f7?style=for-the-badge&logo=anthropic&logoColor=white" alt="LLM / GenAI Engineer"/>
+<img src="https://img.shields.io/badge/MLOps_Engineer-1f6feb?style=for-the-badge&logo=mlflow&logoColor=white" alt="MLOps Engineer"/>
+<img src="https://img.shields.io/badge/AI_Solutions_Engineer-388bfd?style=for-the-badge&logo=googlecloud&logoColor=white" alt="AI Solutions Engineer"/>
+<img src="https://img.shields.io/badge/Cloud_%26_Platform_Engineer-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="Cloud &amp; Platform Engineer"/>
+<img src="https://img.shields.io/badge/Full--Stack_Developer-2ea043?style=for-the-badge&logo=react&logoColor=white" alt="Full-Stack Developer"/>
+<img src="https://img.shields.io/badge/WordPress_Developer-21759B?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress Developer"/>
+</p>
+
+| If you need… | Look at |
+|---|---|
+| **AI / LLM engineering:** RAG, agents, evaluation, guardrails | [Multimodal Assistant](https://github.com/codeROCK-IZZY/multimodal-ai-assistant) · [Business Agents](https://github.com/codeROCK-IZZY/autonomous-business-platform) · [Document AI](https://github.com/codeROCK-IZZY/intelligent-document-ai) |
+| **Machine learning:** models that explain themselves | [Predictive Maintenance](https://github.com/codeROCK-IZZY/ai-predictive-maintenance) · [Fraud Detection](https://github.com/codeROCK-IZZY/fraud-detection-engine) |
+| **Search and developer tools** | [Research Engine](https://github.com/codeROCK-IZZY/ai-research-engine) · [Developer Intelligence](https://github.com/codeROCK-IZZY/ai-developer-intelligence) |
+| **Cloud and platform engineering** | [Enterprise AWS Cloud Platform](https://github.com/codeROCK-IZZY/enterprise-aws-cloud-platform) |
+
 ## 🧰 Stack
 
-<p>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
-<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-<img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white" alt="Apache Kafka"/>
-<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn"/>
-<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangGraph"/>
-<img src="https://img.shields.io/badge/Claude_API-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude API"/>
-<img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS"/>
-<img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" alt="Terraform"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
-<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
-<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/>
-</p>
+| | |
+|---|---|
+| **AI & ML** | <img src="https://img.shields.io/badge/Claude_API-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude API"/> <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangGraph"/> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn"/> <img src="https://img.shields.io/badge/XGBoost-337AB7?style=flat-square" alt="XGBoost"/> <img src="https://img.shields.io/badge/ONNX_Runtime-005CED?style=flat-square&logo=onnx&logoColor=white" alt="ONNX Runtime"/> <img src="https://img.shields.io/badge/Whisper-412991?style=flat-square" alt="Whisper"/> <img src="https://img.shields.io/badge/pgvector-336791?style=flat-square&logo=postgresql&logoColor=white" alt="pgvector"/> |
+| **Backend** | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/> <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white" alt="Apache Kafka"/> <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy"/> |
+| **Frontend** | <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/> <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite"/> |
+| **Cloud & DevOps** | <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS"/> <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" alt="Terraform"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"/> <img src="https://img.shields.io/badge/Checkov-6C2DC7?style=flat-square" alt="Checkov"/> |
+| **Web & growth** | <img src="https://img.shields.io/badge/WordPress-21759B?style=flat-square&logo=wordpress&logoColor=white" alt="WordPress"/> <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP"/> <img src="https://img.shields.io/badge/SEO-47A248?style=flat-square&logo=googlesearchconsole&logoColor=white" alt="SEO"/> <img src="https://img.shields.io/badge/Google_Analytics-E37400?style=flat-square&logo=googleanalytics&logoColor=white" alt="Google Analytics"/> <img src="https://img.shields.io/badge/Digital_Marketing-FF6F61?style=flat-square&logo=googleads&logoColor=white" alt="Digital Marketing"/> |
+
+## 🌐 Beyond code
+
+```js
+const alsoDo = {
+  wordpress:        "custom themes and plugins, fast, secure, SEO-ready business sites",
+  digitalMarketing: "SEO, content strategy, analytics and campaigns that bring the right visitors",
+  why:              "I can build the product *and* help it reach people",
+};
+```
 
 ## 🧪 How I build
 
@@ -156,7 +186,14 @@ every_repo:
   data:           synthetic only, generated by code, no real customer data
 ```
 
+---
+
 <div align="center">
+
+### 🤝 Let's build something
+
+**Hiring for AI, ML, cloud or full-stack work?** Start with the [projects](#-projects); each README opens
+with the problem, the design and the measured results. Then reach out through GitHub.
 
 <sub>Built in public, one production-grade project at a time.</sub>
 
