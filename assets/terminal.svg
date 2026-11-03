@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="330" viewBox="0 0 760 330" role="img" aria-label="Terminal: Rocklyn, AI and Cloud Software Engineer">
+  <title>Rocklyn — AI &amp; Cloud Software Engineer</title>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace; font-size: 15px; white-space: pre; }
+    .prompt { fill: #7ee787; }
+    .path { fill: #79c0ff; }
+    .cmd { fill: #e6edf3; }
+    .out { fill: #c9d1d9; }
+    .key { fill: #ff7b72; }
+    .str { fill: #a5d6ff; }
+    .dim { fill: #8b949e; }
+    .accent { fill: #d2a8ff; }
+    .line { opacity: 0; animation: show 0.4s ease forwards; }
+    .l1 { animation-delay: 0.3s; } .l2 { animation-delay: 1.0s; }
+    .l3 { animation-delay: 1.7s; } .l4 { animation-delay: 2.4s; }
+    .l5 { animation-delay: 3.1s; } .l6 { animation-delay: 3.8s; }
+    .l7 { animation-delay: 4.5s; } .l8 { animation-delay: 5.2s; }
+    .l9 { animation-delay: 5.9s; } .l10 { animation-delay: 6.6s; }
+    .cursor { animation: blink 1s step-end infinite; animation-delay: 6.6s; opacity: 0; }
+    @keyframes show { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .line, .cursor { animation: none; opacity: 1; } }
+  </style>
+
+  <!-- window -->
+  <rect x="1" y="1" width="758" height="328" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  <path d="M1 13a12 12 0 0 1 12-12h734a12 12 0 0 1 12 12v23H1z" fill="#161b22"/>
+  <line x1="1" y1="36" x2="759" y2="36" stroke="#30363d"/>
+  <circle cx="24" cy="18.5" r="6" fill="#ff5f57"/>
+  <circle cx="44" cy="18.5" r="6" fill="#febc2e"/>
+  <circle cx="64" cy="18.5" r="6" fill="#28c840"/>
+  <text x="380" y="23" text-anchor="middle" class="mono dim" style="font-size:13px">rocklyn@github: ~/portfolio — zsh</text>
+
+  <!-- session -->
+  <g class="mono" xml:space="preserve">
+    <g class="line l1"><text x="24" y="70"><tspan class="prompt">➜</tspan> <tspan class="path">~</tspan> <tspan class="cmd">whoami</tspan></text></g>
+    <g class="line l2"><text x="24" y="94"><tspan class="accent" style="font-weight:700">Rocklyn</tspan><tspan class="out"> — AI &amp; Cloud Software Engineer</tspan></text></g>
+
+    <g class="line l3"><text x="24" y="128"><tspan class="prompt">➜</tspan> <tspan class="path">~</tspan> <tspan class="cmd">cat focus.yaml</tspan></text></g>
+    <g class="line l4"><text x="24" y="152"><tspan class="key">builds</tspan><tspan class="dim">:&#160;&#160;&#160;</tspan><tspan class="str">production AI systems · cloud platforms · full-stack products</tspan></text></g>
+    <g class="line l5"><text x="24" y="176"><tspan class="key">stack</tspan><tspan class="dim">:&#160;&#160;&#160;&#160;</tspan><tspan class="str">Python · TypeScript · FastAPI · React · PostgreSQL · AWS · Terraform</tspan></text></g>
+    <g class="line l6"><text x="24" y="200"><tspan class="key">cares</tspan><tspan class="dim">:&#160;&#160;&#160;&#160;</tspan><tspan class="str">evaluations · tests · security · honest docs</tspan></text></g>
+
+    <g class="line l7"><text x="24" y="234"><tspan class="prompt">➜</tspan> <tspan class="path">~/portfolio</tspan> <tspan class="cmd">ls --shipped</tspan></text></g>
+    <g class="line l8"><text x="24" y="258" class="out">predictive-maintenance&#160;&#160;document-ai&#160;&#160;fraud-detection&#160;&#160;research-engine</text></g>
+    <g class="line l9"><text x="24" y="282" class="out">developer-intelligence&#160;&#160;business-agents&#160;&#160;multimodal-assistant&#160;&#160;aws-landing-zone</text></g>
+
+    <g class="line l10"><text x="24" y="314"><tspan class="prompt">➜</tspan> <tspan class="path">~/portfolio</tspan> <tspan class="cmd">git push origin main</tspan></text></g>
+    <rect class="cursor" x="336" y="301" width="9" height="17" fill="#e6edf3"/>
+  </g>
+</svg>
