@@ -6,14 +6,14 @@
 
 <br/>
 
-<a href="#-projects"><img src="https://img.shields.io/badge/projects-14_shipped-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="14 projects shipped"/></a>
+<a href="#-projects"><img src="https://img.shields.io/badge/projects-15_shipped-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="15 projects shipped"/></a>
 <a href="#-how-i-build"><img src="https://img.shields.io/badge/CI-green_on_every_repo-2ea44f?style=for-the-badge&logo=githubactions&logoColor=white" alt="CI green on every repo"/></a>
 <a href="#-education"><img src="https://img.shields.io/badge/M.S._CS-AI_concentration-1f6feb?style=for-the-badge&logo=academia&logoColor=white" alt="M.S. Computer Science, AI concentration"/></a>
 <a href="#-roles-im-open-to"><img src="https://img.shields.io/badge/status-open_to_opportunities-8957e5?style=for-the-badge" alt="Open to opportunities"/></a>
 
 <br/><br/>
 
-<img src="assets/stats.svg" alt="Highlights: 14 projects shipped, 92% grounded answer accuracy, 0 prompt-injection data changes, 32 infrastructure tests" width="100%"/>
+<img src="assets/stats.svg" alt="Highlights: 15 projects shipped, 92% grounded answer accuracy, 0 prompt-injection data changes, 32 infrastructure tests" width="100%"/>
 
 <p align="center">
 <a href="#-featured-project">Featured</a> ·
@@ -34,7 +34,7 @@
 > **Recruiter summary (20 seconds)**
 > - **Who:** AI, ML & Cloud Engineer and Full-Stack Developer, who also builds WordPress sites and runs digital marketing.
 > - **Education:** M.S. Computer Science (concentration in Artificial Intelligence) · B.Sc. Information Systems.
-> - **Proof:** 14 production-grade projects with tests, CI and **measured results**, from RAG and LLM agents to ML models and an AWS landing zone.
+> - **Proof:** 15 production-grade projects with tests, CI and **measured results**, from RAG and LLM agents to ML models and an AWS landing zone.
 > - **Strengths:** shipping end to end (data → model → API → UI → infrastructure), honest evaluation, and security by default.
 > - **Status:** available for hire, based in the United States. Start with the [featured project](#-featured-project).
 
@@ -268,6 +268,21 @@ Bronze/silver/gold that gets the numbers right when the feed does not: **data co
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+### 🌍 [AWS Resilience Lab](https://github.com/codeROCK-IZZY/aws-resilience-lab)
+Multi-region **disaster recovery measured**: the four AWS DR strategies compared on RTO, RPO and cost, and a **guarded failover controller** (quorum, error-rate alarm, hysteresis, fencing) against a naive one.
+
+📊 **3.4 min** RTO p95 active-active (backup and restore: **105 min**) · **0** split-brain writes (naive: **19,082**) · **0/20** false failovers
+
+`Python` `NumPy` `Route 53` `DynamoDB` `S3 CRR` `AWS FIS` `Terraform`
+
+</td>
+<td valign="top">
+
+</td>
+</tr>
 </table>
 
 
@@ -291,7 +306,7 @@ Bronze/silver/gold that gets the numbers right when the feed does not: **data co
 | **MLOps:** registry, gated promotion, drift monitoring, retraining | [AWS MLOps Platform](https://github.com/codeROCK-IZZY/aws-mlops-platform) |
 | **Model serving and distributed systems:** load shedding, quotas, failover, Kubernetes | [Distributed AI Inference](https://github.com/codeROCK-IZZY/distributed-ai-inference) |
 | **Search and developer tools** | [Research Engine](https://github.com/codeROCK-IZZY/ai-research-engine) · [Developer Intelligence](https://github.com/codeROCK-IZZY/ai-developer-intelligence) |
-| **Cloud and platform engineering** | [Enterprise AWS Cloud Platform](https://github.com/codeROCK-IZZY/enterprise-aws-cloud-platform) · [Serverless Event Platform](https://github.com/codeROCK-IZZY/aws-serverless-event-platform) · [Security Guardrails](https://github.com/codeROCK-IZZY/aws-security-guardrails) · [FinOps Optimizer](https://github.com/codeROCK-IZZY/aws-finops-optimizer) · [Data Lakehouse](https://github.com/codeROCK-IZZY/aws-data-lakehouse) |
+| **Cloud and platform engineering** | [Enterprise AWS Cloud Platform](https://github.com/codeROCK-IZZY/enterprise-aws-cloud-platform) · [Serverless Event Platform](https://github.com/codeROCK-IZZY/aws-serverless-event-platform) · [Security Guardrails](https://github.com/codeROCK-IZZY/aws-security-guardrails) · [FinOps Optimizer](https://github.com/codeROCK-IZZY/aws-finops-optimizer) · [Data Lakehouse](https://github.com/codeROCK-IZZY/aws-data-lakehouse) · [Resilience Lab](https://github.com/codeROCK-IZZY/aws-resilience-lab) |
 
 ## 🎓 Education
 
