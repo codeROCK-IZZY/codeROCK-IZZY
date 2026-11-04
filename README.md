@@ -6,14 +6,14 @@
 
 <br/>
 
-<a href="#-projects"><img src="https://img.shields.io/badge/projects-13_shipped-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="13 projects shipped"/></a>
+<a href="#-projects"><img src="https://img.shields.io/badge/projects-14_shipped-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="14 projects shipped"/></a>
 <a href="#-how-i-build"><img src="https://img.shields.io/badge/CI-green_on_every_repo-2ea44f?style=for-the-badge&logo=githubactions&logoColor=white" alt="CI green on every repo"/></a>
 <a href="#-education"><img src="https://img.shields.io/badge/M.S._CS-AI_concentration-1f6feb?style=for-the-badge&logo=academia&logoColor=white" alt="M.S. Computer Science, AI concentration"/></a>
 <a href="#-roles-im-open-to"><img src="https://img.shields.io/badge/status-open_to_opportunities-8957e5?style=for-the-badge" alt="Open to opportunities"/></a>
 
 <br/><br/>
 
-<img src="assets/stats.svg" alt="Highlights: 13 projects shipped, 92% grounded answer accuracy, 0 prompt-injection data changes, 32 infrastructure tests" width="100%"/>
+<img src="assets/stats.svg" alt="Highlights: 14 projects shipped, 92% grounded answer accuracy, 0 prompt-injection data changes, 32 infrastructure tests" width="100%"/>
 
 <p align="center">
 <a href="#-featured-project">Featured</a> ·
@@ -34,7 +34,7 @@
 > **Recruiter summary (20 seconds)**
 > - **Who:** AI, ML & Cloud Engineer and Full-Stack Developer, who also builds WordPress sites and runs digital marketing.
 > - **Education:** M.S. Computer Science (concentration in Artificial Intelligence) · B.Sc. Information Systems.
-> - **Proof:** 13 production-grade projects with tests, CI and **measured results**, from RAG and LLM agents to ML models and an AWS landing zone.
+> - **Proof:** 14 production-grade projects with tests, CI and **measured results**, from RAG and LLM agents to ML models and an AWS landing zone.
 > - **Strengths:** shipping end to end (data → model → API → UI → infrastructure), honest evaluation, and security by default.
 > - **Status:** available for hire, based in the United States. Start with the [featured project](#-featured-project).
 
@@ -259,6 +259,13 @@ Cost recommendations you can act on, from **CUR 2.0**: waste with evidence, righ
 </td>
 <td valign="top">
 
+### 🏞️ [AWS Data Lakehouse](https://github.com/codeROCK-IZZY/aws-data-lakehouse)
+Bronze/silver/gold that gets the numbers right when the feed does not: **data contracts** with quarantine, **idempotent MERGE**, late data, schema evolution, and snapshots with **time travel** and lineage.
+
+📊 **$0.00** revenue error on $19.1M (naive append: **$2.24M**) · **942/942** bad rows quarantined · **0** snapshots on replay
+
+`Python` `DuckDB` `Parquet` `S3` `Glue` `Athena` `Terraform`
+
 </td>
 </tr>
 </table>
@@ -284,7 +291,7 @@ Cost recommendations you can act on, from **CUR 2.0**: waste with evidence, righ
 | **MLOps:** registry, gated promotion, drift monitoring, retraining | [AWS MLOps Platform](https://github.com/codeROCK-IZZY/aws-mlops-platform) |
 | **Model serving and distributed systems:** load shedding, quotas, failover, Kubernetes | [Distributed AI Inference](https://github.com/codeROCK-IZZY/distributed-ai-inference) |
 | **Search and developer tools** | [Research Engine](https://github.com/codeROCK-IZZY/ai-research-engine) · [Developer Intelligence](https://github.com/codeROCK-IZZY/ai-developer-intelligence) |
-| **Cloud and platform engineering** | [Enterprise AWS Cloud Platform](https://github.com/codeROCK-IZZY/enterprise-aws-cloud-platform) · [Serverless Event Platform](https://github.com/codeROCK-IZZY/aws-serverless-event-platform) · [Security Guardrails](https://github.com/codeROCK-IZZY/aws-security-guardrails) · [FinOps Optimizer](https://github.com/codeROCK-IZZY/aws-finops-optimizer) |
+| **Cloud and platform engineering** | [Enterprise AWS Cloud Platform](https://github.com/codeROCK-IZZY/enterprise-aws-cloud-platform) · [Serverless Event Platform](https://github.com/codeROCK-IZZY/aws-serverless-event-platform) · [Security Guardrails](https://github.com/codeROCK-IZZY/aws-security-guardrails) · [FinOps Optimizer](https://github.com/codeROCK-IZZY/aws-finops-optimizer) · [Data Lakehouse](https://github.com/codeROCK-IZZY/aws-data-lakehouse) |
 
 ## 🎓 Education
 
