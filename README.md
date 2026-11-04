@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/terminal.svg" alt="Rocklyn — AI Engineer · Cloud Engineer · Full-Stack Developer" width="100%"/>
+<img src="assets/terminal.svg" alt="Rocklyn — AI, ML &amp; Cloud Engineer · Full-Stack Developer" width="100%"/>
 
 <img src="assets/roles.svg" alt="Open to: AI Engineer, ML Engineer, LLM / GenAI Engineer, MLOps Engineer, Cloud &amp; Platform Engineer, Full-Stack Developer" width="100%"/>
 
@@ -32,7 +32,7 @@
 
 > [!TIP]
 > **Recruiter summary (20 seconds)**
-> - **Who:** AI & Cloud Engineer and Full-Stack Developer, who also builds WordPress sites and runs digital marketing.
+> - **Who:** AI, ML & Cloud Engineer and Full-Stack Developer, who also builds WordPress sites and runs digital marketing.
 > - **Education:** M.S. Computer Science (concentration in Artificial Intelligence) · B.Sc. Information Systems.
 > - **Proof:** 10 production-grade projects with tests, CI and **measured results**, from RAG and LLM agents to ML models and an AWS landing zone.
 > - **Strengths:** shipping end to end (data → model → API → UI → infrastructure), honest evaluation, and security by default.
@@ -47,7 +47,7 @@
 ---
 
 ```python
-class Rocklyn(AIEngineer, CloudEngineer, FullStackDeveloper):
+class Rocklyn(AIEngineer, MLEngineer, CloudEngineer, FullStackDeveloper):
     """I build AI products and the cloud platforms they run on: end to end, tested, documented."""
 
     roles     = ["AI Engineer", "ML Engineer", "LLM / GenAI Engineer", "MLOps Engineer",

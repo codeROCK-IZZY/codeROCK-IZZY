@@ -34,7 +34,7 @@
   <!-- session -->
   <g class="mono" xml:space="preserve">
     <g class="line l1"><text x="24" y="70"><tspan class="prompt">➜</tspan> <tspan class="path">~</tspan> <tspan class="cmd">whoami</tspan></text></g>
-    <g class="line l2"><text x="24" y="94"><tspan class="accent" style="font-weight:700">Rocklyn</tspan><tspan class="out"> — AI Engineer · Cloud Engineer · Full-Stack Developer</tspan></text></g>
+    <g class="line l2"><text x="24" y="94"><tspan class="accent" style="font-weight:700">Rocklyn</tspan><tspan class="out"> — AI, ML &amp; Cloud Engineer · Full-Stack Developer</tspan></text></g>
 
     <g class="line l3"><text x="24" y="128"><tspan class="prompt">➜</tspan> <tspan class="path">~</tspan> <tspan class="cmd">cat focus.yaml</tspan></text></g>
     <g class="line l4"><text x="24" y="152"><tspan class="key">builds</tspan><tspan class="dim">:&#160;&#160;&#160;</tspan><tspan class="str">production AI systems · cloud platforms · full-stack products</tspan></text></g>
