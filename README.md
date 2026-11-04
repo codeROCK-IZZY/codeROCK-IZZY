@@ -344,7 +344,7 @@ const marketing = {
 **Hiring for AI, ML, cloud or full-stack work?** Start with the [featured project](#-featured-project);
 every README opens with the problem, the design and the measured results.
 
-<a href="#-projects"><img src="https://img.shields.io/badge/Portfolio-coming_soon-8957e5?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio: coming soon"/></a>
+<a href="https://israelrocklyn.info"><img src="https://img.shields.io/badge/Portfolio-israelrocklyn.info-ffb454?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio: israelrocklyn.info"/></a>
 <a href="https://israelrocklyn.info"><img src="https://img.shields.io/badge/Website-israelrocklyn.info-0d1117?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website: israelrocklyn.info"/></a>
 <img src="https://img.shields.io/badge/Available_for_hire-yes-2ea043?style=for-the-badge&logo=handshake&logoColor=white" alt="Available for hire"/>
 <img src="https://img.shields.io/badge/Location-United_States-1f6feb?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location: United States"/>
