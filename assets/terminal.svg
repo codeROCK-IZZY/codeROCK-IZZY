@@ -46,7 +46,7 @@
     <g class="line l9"><text x="24" y="282" class="out">developer-intelligence&#160;&#160;business-agents&#160;&#160;multimodal-assistant</text></g>
     <g class="line l9b"><text x="24" y="306" class="out">landing-zone&#160;&#160;mlops&#160;&#160;inference-gateway&#160;&#160;event-platform&#160;&#160;guardrails&#160;&#160;finops</text></g>
     <g class="line l9c"><text x="24" y="330" class="out">lakehouse&#160;&#160;resilience&#160;&#160;llm-gateway&#160;&#160;llm-eval&#160;&#160;recsys&#160;&#160;forecast&#160;&#160;resolve</text></g>
-    <g class="line l9d"><text x="24" y="354" class="out">abtest</text></g>
+    <g class="line l9d"><text x="24" y="354" class="out">abtest&#160;&#160;features</text></g>
 
     <g class="line l10"><text x="24" y="386"><tspan class="prompt">➜</tspan> <tspan class="path">~/portfolio</tspan> <tspan class="cmd">git push origin main</tspan></text></g>
     <rect class="cursor" x="336" y="373" width="9" height="17" fill="#e6edf3"/>
