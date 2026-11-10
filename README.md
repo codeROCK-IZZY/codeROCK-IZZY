@@ -6,7 +6,7 @@
 
 <br/>
 
-<a href="#-projects"><img src="https://img.shields.io/badge/projects-23_shipped-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="23 projects shipped"/></a>
+<a href="#-projects"><img src="https://img.shields.io/badge/projects-28_shipped-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="28 projects shipped"/></a>
 <a href="#-how-i-build"><img src="https://img.shields.io/badge/CI-green_on_every_repo-2ea44f?style=for-the-badge&logo=githubactions&logoColor=white" alt="CI green on every repo"/></a>
 <a href="#-education"><img src="https://img.shields.io/badge/M.S._CS-AI_concentration-1f6feb?style=for-the-badge&logo=academia&logoColor=white" alt="M.S. Computer Science, AI concentration"/></a>
 <a href="#-roles-im-open-to"><img src="https://img.shields.io/badge/status-open_to_opportunities-8957e5?style=for-the-badge" alt="Open to opportunities"/></a>
@@ -14,7 +14,7 @@
 
 <br/><br/>
 
-<img src="assets/stats.svg" alt="Highlights: 23 projects shipped, 92% grounded answer accuracy, 0 prompt-injection data changes, 32 infrastructure tests" width="100%"/>
+<img src="assets/stats.svg" alt="Highlights: 28 projects shipped, 92% grounded answer accuracy, 0 prompt-injection data changes, 32 infrastructure tests" width="100%"/>
 
 <p align="center">
 <a href="#-featured-project">Featured</a> ·
@@ -35,7 +35,7 @@
 > **Recruiter summary (20 seconds)**
 > - **Who:** AI, ML & Cloud Engineer and Full-Stack Developer, who also builds WordPress sites and runs digital marketing.
 > - **Education:** M.S. Computer Science (concentration in Artificial Intelligence) · B.Sc. Information Systems.
-> - **Proof:** 23 production-grade projects with tests, CI and **measured results**, from RAG and LLM agents to ML models and an AWS landing zone.
+> - **Proof:** 28 production-grade projects with tests, CI and **measured results**, from RAG and LLM agents to ML models and an AWS landing zone.
 > - **Strengths:** shipping end to end (data → model → API → UI → infrastructure), honest evaluation, and security by default.
 > - **Status:** available for hire, based in the United States. Start with the [featured project](#-featured-project).
 
@@ -370,6 +370,57 @@ Unsupervised defect detection on CPU: a **PatchCore-style patch memory** with a 
 </td>
 <td valign="top">
 
+### 🛒 [WooCommerce Pricing Rules](https://github.com/codeROCK-IZZY/woocommerce-pricing-rules)
+Bulk, tiered, BOGO and cart discounts in **integer cents**, checked against an **independent reference** with property and **mutation testing**, and in real WooCommerce.
+
+📊 **0 / 20,000** carts off · **10 / 10** planted bugs caught · **2.6 ms** p95 for 50,000 units
+
+`PHP` `WooCommerce` `PHPUnit` `PHPStan`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+### 💬 [WordPress AI Site Assistant](https://github.com/codeROCK-IZZY/wordpress-ai-assistant)
+Plugin that answers visitors from the site's own pages: **BM25 retrieval**, **Claude** (official PHP SDK) with **citations** or an offline extractive mode, and a **prompt-injection filter**, evaluated on a **held-out** question set.
+
+📊 Right page in top 5 **96% / 100%** (WP search **28% / 23.5%**) · **0** injection repeats · **0.9 ms** p95
+
+`PHP` `WordPress` `Claude API` `PHPUnit`
+
+</td>
+<td valign="top">
+
+### 🧱 [WordPress Business Blocks](https://github.com/codeROCK-IZZY/wordpress-business-blocks)
+Six **Gutenberg blocks** (React, `@wordpress/scripts`, rendered in PHP) with a DST-correct **open-now badge**, injection-proof **JSON-LD** and an **axe-core** audit.
+
+📊 **0 / 59,600** open-now errors · **0 / 2,000** structured-data breaks · **3.0 KB** for all six blocks
+
+`React` `Gutenberg` `PHP` `Jest`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+### 🎨 [Keystone Block Theme](https://github.com/codeROCK-IZZY/wordpress-block-theme)
+Full-site-editing theme (**theme.json v3**, templates, patterns, **3 style variations**) with no theme JS or web fonts, a **WCAG contrast gate** per palette, and a same-content comparison with Twenty Twenty-Five.
+
+📊 **31%** lighter than Twenty Twenty-Five · **36 / 36** contrast pairs pass AA · Lighthouse accessibility **100**
+
+`WordPress` `theme.json` `Playwright` `Lighthouse`
+
+</td>
+<td valign="top">
+
+### 📨 [WordPress Lead Capture](https://github.com/codeROCK-IZZY/wordpress-lead-capture)
+Contact-form plugin with **layered spam scoring** and a **durable CRM queue** (lease, idempotency keys, backoff) for HubSpot, Mailchimp and webhooks, evaluated on a **held-out** spam set.
+
+📊 **0 / 2,400** real leads lost · **985 / 985** delivered exactly once through outages · **0** double sends
+
+`PHP` `WordPress` `REST API` `PHPUnit`
+
 </td>
 </tr>
 </table>
@@ -396,6 +447,7 @@ Unsupervised defect detection on CPU: a **PatchCore-style patch memory** with a 
 | **Model serving and distributed systems:** load shedding, quotas, failover, Kubernetes | [Distributed AI Inference](https://github.com/codeROCK-IZZY/distributed-ai-inference) |
 | **Search and developer tools** | [Research Engine](https://github.com/codeROCK-IZZY/ai-research-engine) · [Developer Intelligence](https://github.com/codeROCK-IZZY/ai-developer-intelligence) |
 | **Cloud and platform engineering** | [Enterprise AWS Cloud Platform](https://github.com/codeROCK-IZZY/enterprise-aws-cloud-platform) · [Serverless Event Platform](https://github.com/codeROCK-IZZY/aws-serverless-event-platform) · [Security Guardrails](https://github.com/codeROCK-IZZY/aws-security-guardrails) · [FinOps Optimizer](https://github.com/codeROCK-IZZY/aws-finops-optimizer) · [Data Lakehouse](https://github.com/codeROCK-IZZY/aws-data-lakehouse) · [Resilience Lab](https://github.com/codeROCK-IZZY/aws-resilience-lab) |
+| **WordPress development:** plugins, Gutenberg blocks, WooCommerce, block themes | [Lead Capture](https://github.com/codeROCK-IZZY/wordpress-lead-capture) · [WooCommerce Pricing Rules](https://github.com/codeROCK-IZZY/woocommerce-pricing-rules) · [AI Site Assistant](https://github.com/codeROCK-IZZY/wordpress-ai-assistant) · [Business Blocks](https://github.com/codeROCK-IZZY/wordpress-business-blocks) · [Keystone Block Theme](https://github.com/codeROCK-IZZY/wordpress-block-theme) |
 
 ## 🎓 Education
 
