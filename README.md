@@ -10,6 +10,7 @@
 <a href="#-how-i-build"><img src="https://img.shields.io/badge/CI-green_on_every_repo-2ea44f?style=for-the-badge&logo=githubactions&logoColor=white" alt="CI green on every repo"/></a>
 <a href="#-education"><img src="https://img.shields.io/badge/M.S._CS-AI_concentration-1f6feb?style=for-the-badge&logo=academia&logoColor=white" alt="M.S. Computer Science, AI concentration"/></a>
 <a href="#-roles-im-open-to"><img src="https://img.shields.io/badge/status-open_to_opportunities-8957e5?style=for-the-badge" alt="Open to opportunities"/></a>
+<a href="https://www.linkedin.com/in/israel-rocklyn-789884140/"><img src="https://img.shields.io/badge/LinkedIn-connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"/></a>
 
 <br/><br/>
 
@@ -492,6 +493,7 @@ const marketing = {
 every README opens with the problem, the design and the measured results.
 
 <a href="https://israelrocklyn.info"><img src="https://img.shields.io/badge/Portfolio-israelrocklyn.info-ffb454?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio: israelrocklyn.info"/></a>
+<a href="https://www.linkedin.com/in/israel-rocklyn-789884140/"><img src="https://img.shields.io/badge/LinkedIn-Israel_Rocklyn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn: Israel Rocklyn"/></a>
 <img src="https://img.shields.io/badge/Available_for_hire-yes-2ea043?style=for-the-badge&logo=handshake&logoColor=white" alt="Available for hire"/>
 <img src="https://img.shields.io/badge/Location-United_States-1f6feb?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location: United States"/>
 
