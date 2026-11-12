@@ -6,7 +6,7 @@
 
 <br/>
 
-<a href="#-projects"><img src="https://img.shields.io/badge/projects-33_shipped-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="33 projects shipped"/></a>
+<a href="#-projects"><img src="https://img.shields.io/badge/projects-34_shipped-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="34 projects shipped"/></a>
 <a href="#-how-i-build"><img src="https://img.shields.io/badge/CI-green_on_every_repo-2ea44f?style=for-the-badge&logo=githubactions&logoColor=white" alt="CI green on every repo"/></a>
 <a href="#-education"><img src="https://img.shields.io/badge/M.S._CS-AI_concentration-1f6feb?style=for-the-badge&logo=academia&logoColor=white" alt="M.S. Computer Science, AI concentration"/></a>
 <a href="#-roles-im-open-to"><img src="https://img.shields.io/badge/status-open_to_opportunities-8957e5?style=for-the-badge" alt="Open to opportunities"/></a>
@@ -14,7 +14,7 @@
 
 <br/><br/>
 
-<img src="assets/stats.svg" alt="Highlights: 33 projects shipped, 92% grounded answer accuracy, 0 prompt-injection data changes, 32 infrastructure tests" width="100%"/>
+<img src="assets/stats.svg" alt="Highlights: 34 projects shipped, 92% grounded answer accuracy, 0 prompt-injection data changes, 32 infrastructure tests" width="100%"/>
 
 <p align="center">
 <a href="#-featured-project">Featured</a> ·
@@ -35,7 +35,7 @@
 > **Recruiter summary (20 seconds)**
 > - **Who:** AI, ML & Cloud Engineer and Full-Stack Developer, who also builds WordPress sites and runs digital marketing.
 > - **Education:** M.S. Computer Science (concentration in Artificial Intelligence) · B.Sc. Information Systems.
-> - **Proof:** 33 production-grade projects with tests, CI and **measured results**, from RAG and LLM agents to ML models and an AWS landing zone.
+> - **Proof:** 34 production-grade projects with tests, CI and **measured results**, from RAG and LLM agents to ML models and an AWS landing zone.
 > - **Strengths:** shipping end to end (data → model → API → UI → infrastructure), honest evaluation, and security by default.
 > - **Status:** available for hire, based in the United States. Start with the [featured project](#-featured-project).
 
@@ -480,6 +480,13 @@ Progressive rollouts with **side-by-side canary analysis** per region, endpoint 
 </td>
 <td valign="top">
 
+### 🗓️ [Intelligent Meeting Operations](https://github.com/codeROCK-IZZY/meeting-operations-ai)
+Time-zone-aware **scheduling by cost** (nights, past late-meeting load, focus time) and **action items from transcripts** that follow the conversation, with a **learned turn classifier**, a **review queue** and **Claude** checked against the transcript.
+
+📊 **-76%** night meeting hours · **0.72** owner/task F1 on unseen phrasing (rules: 0.00) · **96.4%** of items surfaced
+
+`Python` `scikit-learn` `Claude API` `FastAPI`
+
 </td>
 </tr>
 </table>
@@ -500,7 +507,7 @@ Progressive rollouts with **side-by-side canary analysis** per region, endpoint 
 
 | If you need… | Look at |
 |---|---|
-| **AI / LLM engineering:** RAG, agents, evaluation, guardrails | [Multimodal Assistant](https://github.com/codeROCK-IZZY/multimodal-ai-assistant) · [Business Agents](https://github.com/codeROCK-IZZY/autonomous-business-platform) · [Document AI](https://github.com/codeROCK-IZZY/intelligent-document-ai) · [Guardrails Gateway](https://github.com/codeROCK-IZZY/llm-guardrails-gateway) · [Evaluation Platform](https://github.com/codeROCK-IZZY/llm-evaluation-platform) · [Visual Anomaly Detection](https://github.com/codeROCK-IZZY/visual-anomaly-detection) · [Voice Receptionist](https://github.com/codeROCK-IZZY/ai-voice-receptionist) · [Multi-Agent Workforce](https://github.com/codeROCK-IZZY/enterprise-multi-agent-workforce) · [Video Intelligence](https://github.com/codeROCK-IZZY/video-intelligence-platform) · [Contract Lifecycle](https://github.com/codeROCK-IZZY/ai-contract-lifecycle) |
+| **AI / LLM engineering:** RAG, agents, evaluation, guardrails | [Multimodal Assistant](https://github.com/codeROCK-IZZY/multimodal-ai-assistant) · [Business Agents](https://github.com/codeROCK-IZZY/autonomous-business-platform) · [Document AI](https://github.com/codeROCK-IZZY/intelligent-document-ai) · [Guardrails Gateway](https://github.com/codeROCK-IZZY/llm-guardrails-gateway) · [Evaluation Platform](https://github.com/codeROCK-IZZY/llm-evaluation-platform) · [Visual Anomaly Detection](https://github.com/codeROCK-IZZY/visual-anomaly-detection) · [Voice Receptionist](https://github.com/codeROCK-IZZY/ai-voice-receptionist) · [Multi-Agent Workforce](https://github.com/codeROCK-IZZY/enterprise-multi-agent-workforce) · [Video Intelligence](https://github.com/codeROCK-IZZY/video-intelligence-platform) · [Contract Lifecycle](https://github.com/codeROCK-IZZY/ai-contract-lifecycle) · [Meeting Operations](https://github.com/codeROCK-IZZY/meeting-operations-ai) |
 | **Machine learning:** models that explain themselves | [Predictive Maintenance](https://github.com/codeROCK-IZZY/ai-predictive-maintenance) · [Fraud Detection](https://github.com/codeROCK-IZZY/fraud-detection-engine) · [Recommender System](https://github.com/codeROCK-IZZY/recommender-system) · [Demand Forecasting](https://github.com/codeROCK-IZZY/demand-forecasting) · [Entity Resolution](https://github.com/codeROCK-IZZY/entity-resolution) · [Experimentation Platform](https://github.com/codeROCK-IZZY/experimentation-platform) |
 | **MLOps:** registry, gated promotion, drift monitoring, retraining | [AWS MLOps Platform](https://github.com/codeROCK-IZZY/aws-mlops-platform) · [Feature Store](https://github.com/codeROCK-IZZY/feature-store) |
 | **Model serving and distributed systems:** load shedding, quotas, failover, Kubernetes | [Distributed AI Inference](https://github.com/codeROCK-IZZY/distributed-ai-inference) |
