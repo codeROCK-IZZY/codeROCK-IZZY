@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="150" viewBox="0 0 760 150" role="img" aria-label="Highlights: 36 production-grade projects, 92 percent grounded answer accuracy, 0 prompt-injection data changes, 32 infrastructure tests with no AWS account">
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="150" viewBox="0 0 760 150" role="img" aria-label="Highlights: 37 production-grade projects, 92 percent grounded answer accuracy, 0 prompt-injection data changes, 32 infrastructure tests with no AWS account">
   <title>Portfolio highlights</title>
   <style>
     .num { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; font-size: 34px; font-weight: 800; }
@@ -19,7 +19,7 @@
   <g class="card c1">
     <rect x="1" y="1" width="178" height="148" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
     <rect x="1" y="1" width="178" height="4" rx="2" fill="url(#g1)"/>
-    <text x="20" y="62" class="num" fill="url(#g1)">36</text>
+    <text x="20" y="62" class="num" fill="url(#g1)">37</text>
     <text x="20" y="90" class="lbl">production-grade</text>
     <text x="20" y="108" class="lbl">projects shipped</text>
     <text x="20" y="133" class="sub">CI green on main</text>
