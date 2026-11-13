@@ -6,7 +6,7 @@
 
 <br/>
 
-<a href="#-projects"><img src="https://img.shields.io/badge/projects-37_shipped-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="37 projects shipped"/></a>
+<a href="#-projects"><img src="https://img.shields.io/badge/projects-38_shipped-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="38 projects shipped"/></a>
 <a href="#-how-i-build"><img src="https://img.shields.io/badge/CI-green_on_every_repo-2ea44f?style=for-the-badge&logo=githubactions&logoColor=white" alt="CI green on every repo"/></a>
 <a href="#-education"><img src="https://img.shields.io/badge/M.S._CS-AI_concentration-1f6feb?style=for-the-badge&logo=academia&logoColor=white" alt="M.S. Computer Science, AI concentration"/></a>
 <a href="#-roles-im-open-to"><img src="https://img.shields.io/badge/status-open_to_opportunities-8957e5?style=for-the-badge" alt="Open to opportunities"/></a>
@@ -14,7 +14,7 @@
 
 <br/><br/>
 
-<img src="assets/stats.svg" alt="Highlights: 37 projects shipped, 92% grounded answer accuracy, 0 prompt-injection data changes, 32 infrastructure tests" width="100%"/>
+<img src="assets/stats.svg" alt="Highlights: 38 projects shipped, 92% grounded answer accuracy, 0 prompt-injection data changes, 32 infrastructure tests" width="100%"/>
 
 <p align="center">
 <a href="#-featured-project">Featured</a> ·
@@ -35,7 +35,7 @@
 > **Recruiter summary (20 seconds)**
 > - **Who:** AI, ML & Cloud Engineer and Full-Stack Developer, who also builds WordPress sites and runs digital marketing.
 > - **Education:** M.S. Computer Science (concentration in Artificial Intelligence) · B.Sc. Information Systems.
-> - **Proof:** 37 production-grade projects with tests, CI and **measured results**, from RAG and LLM agents to ML models and an AWS landing zone.
+> - **Proof:** 38 production-grade projects with tests, CI and **measured results**, from RAG and LLM agents to ML models and an AWS landing zone.
 > - **Strengths:** shipping end to end (data → model → API → UI → infrastructure), honest evaluation, and security by default.
 > - **Status:** available for hire, based in the United States. Start with the [featured project](#-featured-project).
 
@@ -524,6 +524,13 @@ Admission policies on **parsed objects** (CronJobs, init and ephemeral container
 </td>
 <td valign="top">
 
+### 🛒 [Cloud Service Catalog and Governance](https://github.com/codeROCK-IZZY/cloud-service-catalog)
+Self-service cloud with **policy checks and fixes**, **approval routing**, **vetted Terraform** with mandatory tags, **usage-aware cost estimates** and a **budget gate**, and plain-English requests through **Claude**.
+
+📊 **8.5%** median estimate error (list price: 18.6%) · underestimates by 30%+ cut from **35% to 9%** · overspend **$419k → $153k**
+
+`Python` `FastAPI` `Terraform` `Claude API`
+
 </td>
 </tr>
 </table>
@@ -549,7 +556,7 @@ Admission policies on **parsed objects** (CronJobs, init and ephemeral container
 | **MLOps:** registry, gated promotion, drift monitoring, retraining | [AWS MLOps Platform](https://github.com/codeROCK-IZZY/aws-mlops-platform) · [Feature Store](https://github.com/codeROCK-IZZY/feature-store) |
 | **Model serving and distributed systems:** load shedding, quotas, failover, Kubernetes | [Distributed AI Inference](https://github.com/codeROCK-IZZY/distributed-ai-inference) |
 | **Search and developer tools** | [Research Engine](https://github.com/codeROCK-IZZY/ai-research-engine) · [Developer Intelligence](https://github.com/codeROCK-IZZY/ai-developer-intelligence) |
-| **Cloud and platform engineering** | [Enterprise AWS Cloud Platform](https://github.com/codeROCK-IZZY/enterprise-aws-cloud-platform) · [Serverless Event Platform](https://github.com/codeROCK-IZZY/aws-serverless-event-platform) · [Security Guardrails](https://github.com/codeROCK-IZZY/aws-security-guardrails) · [FinOps Optimizer](https://github.com/codeROCK-IZZY/aws-finops-optimizer) · [Data Lakehouse](https://github.com/codeROCK-IZZY/aws-data-lakehouse) · [Resilience Lab](https://github.com/codeROCK-IZZY/aws-resilience-lab) · [Software Delivery](https://github.com/codeROCK-IZZY/autonomous-software-delivery) · [Developer Platform](https://github.com/codeROCK-IZZY/internal-developer-platform) · [Kubernetes Fleet](https://github.com/codeROCK-IZZY/kubernetes-management-platform) |
+| **Cloud and platform engineering** | [Enterprise AWS Cloud Platform](https://github.com/codeROCK-IZZY/enterprise-aws-cloud-platform) · [Serverless Event Platform](https://github.com/codeROCK-IZZY/aws-serverless-event-platform) · [Security Guardrails](https://github.com/codeROCK-IZZY/aws-security-guardrails) · [FinOps Optimizer](https://github.com/codeROCK-IZZY/aws-finops-optimizer) · [Data Lakehouse](https://github.com/codeROCK-IZZY/aws-data-lakehouse) · [Resilience Lab](https://github.com/codeROCK-IZZY/aws-resilience-lab) · [Software Delivery](https://github.com/codeROCK-IZZY/autonomous-software-delivery) · [Developer Platform](https://github.com/codeROCK-IZZY/internal-developer-platform) · [Kubernetes Fleet](https://github.com/codeROCK-IZZY/kubernetes-management-platform) · [Cloud Catalog](https://github.com/codeROCK-IZZY/cloud-service-catalog) |
 | **WordPress development:** plugins, Gutenberg blocks, WooCommerce, block themes | [Lead Capture](https://github.com/codeROCK-IZZY/wordpress-lead-capture) · [WooCommerce Pricing Rules](https://github.com/codeROCK-IZZY/woocommerce-pricing-rules) · [AI Site Assistant](https://github.com/codeROCK-IZZY/wordpress-ai-assistant) · [Business Blocks](https://github.com/codeROCK-IZZY/wordpress-business-blocks) · [Keystone Block Theme](https://github.com/codeROCK-IZZY/wordpress-block-theme) |
 
 ## 🎓 Education
