@@ -6,7 +6,7 @@
 
 <br/>
 
-<a href="#-projects"><img src="https://img.shields.io/badge/projects-48_shipped-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="48 projects shipped"/></a>
+<a href="#-projects"><img src="https://img.shields.io/badge/projects-49_shipped-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="49 projects shipped"/></a>
 <a href="#-how-i-build"><img src="https://img.shields.io/badge/CI-green_on_every_repo-2ea44f?style=for-the-badge&logo=githubactions&logoColor=white" alt="CI green on every repo"/></a>
 <a href="#-education"><img src="https://img.shields.io/badge/M.S._CS-AI_concentration-1f6feb?style=for-the-badge&logo=academia&logoColor=white" alt="M.S. Computer Science, AI concentration"/></a>
 <a href="#-roles-im-open-to"><img src="https://img.shields.io/badge/status-open_to_opportunities-8957e5?style=for-the-badge" alt="Open to opportunities"/></a>
@@ -14,7 +14,7 @@
 
 <br/><br/>
 
-<img src="assets/stats.svg" alt="Highlights: 48 projects shipped, 92% grounded answer accuracy, 0 prompt-injection data changes, 32 infrastructure tests" width="100%"/>
+<img src="assets/stats.svg" alt="Highlights: 49 projects shipped, 92% grounded answer accuracy, 0 prompt-injection data changes, 32 infrastructure tests" width="100%"/>
 
 <p align="center">
 <a href="#-featured-project">Featured</a> ·
@@ -35,7 +35,7 @@
 > **Recruiter summary (20 seconds)**
 > - **Who:** AI, ML & Cloud Engineer and Full-Stack Developer, who also builds WordPress sites and runs digital marketing.
 > - **Education:** M.S. Computer Science (concentration in Artificial Intelligence) · B.Sc. Information Systems.
-> - **Proof:** 48 production-grade projects with tests, CI and **measured results**, from RAG and LLM agents to ML models and an AWS landing zone.
+> - **Proof:** 49 production-grade projects with tests, CI and **measured results**, from RAG and LLM agents to ML models and an AWS landing zone.
 > - **Strengths:** shipping end to end (data → model → API → UI → infrastructure), honest evaluation, and security by default.
 > - **Status:** available for hire, based in the United States. Start with the [featured project](#-featured-project).
 
@@ -640,6 +640,21 @@ Routes planned **windows first** with **cheapest insertion** and moves between t
 📊 appointments kept **91.7% vs 75.7%** · **43%** less driving per job · first-time fix **99.6% vs 72.8%**
 
 `Python` `FastAPI` `NumPy` `Claude API`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+### 🧭 [ApplyPilot AI](https://applypilot.israelrocklyn.info)
+A career operating system that only says what the candidate confirmed: a **Knowledge Vault** where every résumé fact carries its source text, **Claude** extraction with quotes checked by code, and tenant isolation down to **PostgreSQL row-level security**. Commercial product: [live demo](https://applypilot.israelrocklyn.info), private code.
+
+📊 **0** facts used before confirmation · **2-layer** tenant isolation · parser F1 **0.77** on unseen layouts (target missed, reported)
+
+`Laravel` `FastAPI` `Next.js` `PostgreSQL` `Claude API`
+
+</td>
+<td valign="top">
 
 </td>
 </tr>
